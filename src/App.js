@@ -1,7 +1,7 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-21 20:44:48
- * @LastEditTime: 2020-08-21 21:53:04
+ * @LastEditTime: 2020-08-24 21:56:26
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\App.js
@@ -12,17 +12,15 @@ import "./styles/Base.scss";
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
-const Button = lazy(() => import("components/Button"));
+const YYHeaderComp = lazy(() => import("./components/header/index"));
+const YYFooterComp = lazy(() => import("./components/footer/index"));
+
 const App = () => (
   <Router>
-    <Suspense fallback={<div>Loading...</div>}>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </Switch>
-      <Button></Button>
+    <Suspense fallback={<div>加载中...</div>}>
+      <YYHeaderComp />
+
+      <YYFooterComp />
     </Suspense>
   </Router>
 );
