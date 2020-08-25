@@ -1,0 +1,47 @@
+/* 样式的重置 */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+/* 容器宽度1100px 居中 */
+.wrap_1100_center {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* 精灵图 */
+.sprite_topbar {
+  background: url(../assets/images/sprite_topbar.png) no-repeat;
+}
