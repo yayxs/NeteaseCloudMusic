@@ -1,14 +1,13 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-25 23:04:49
- * @LastEditTime: 2020-08-25 23:08:10
+ * @LastEditTime: 2020-08-26 22:43:44
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\common\config.js
  * @
  */
-export const BASE_URL = `https://jsonplaceholder.typicode.com`;
-export const TIME_OUT = 10000;
+
 export const headerNavConfig = [
   {
     title: "发现音乐",

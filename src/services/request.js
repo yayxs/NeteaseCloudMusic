@@ -1,13 +1,23 @@
+/*
+ * @Author: yayxs
+ * @Date: 2020-08-26 21:37:00
+ * @LastEditTime: 2020-08-26 23:54:10
+ * @LastEditors: yayxs
+ * @Description:
+ * @FilePath: \NeteaseCloudMusic\src\services\request.js
+ * @
+ */
 // 引入axios
 import axios from "axios";
-import * as commonConfig from "../common/config";
+// import * as commonConfig from "../common/config";
 export default function request(options) {
   return new Promise((resolve, reject) => {
     // 1. 实例配置
     const insOptions = {
-      baseURl: commonConfig.BASE_URL,
-      timeout: commonConfig.TIME_OUT,
+      baseURL: process.env.REACT_APP_BASE_URL,
+      timeout: Number(process.env.REACT_APP_TIME_OUT),
     };
+    console.log(insOptions);
     // 2. 创建axios 实例
     const axiosInstance = axios.create(insOptions);
     // 3. 请求拦截
@@ -16,6 +26,7 @@ export default function request(options) {
         // 3-1 页面添加loading组件
         // 3-2 token 鉴权
         // ……
+        console.log(config);
         return config;
       },
       (err) => {

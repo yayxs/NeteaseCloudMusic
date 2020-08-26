@@ -1,13 +1,13 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-21 20:44:48
- * @LastEditTime: 2020-08-25 22:13:47
+ * @LastEditTime: 2020-08-26 22:23:26
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\App.js
  * @
  */
-import "normalize.css";
+
 import "./styles/Base.css";
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
