@@ -1,4 +1,4 @@
-'use strict';
+
 
 const fs = require('fs');
 const path = require('path');
@@ -49,7 +49,13 @@ const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
+// const resolveDir = dir => path.resolve(__dirname, dir);
 
+const resolveDir =(dir)=>{
+  let res  = path.resolve(__dirname, dir)
+  console.log(res)
+  return res
+}
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function(webpackEnv) {
@@ -289,6 +295,9 @@ module.exports = function(webpackEnv) {
         .map(ext => `.${ext}`)
         .filter(ext => useTypeScript || !ext.includes('ts')),
       alias: {
+        // webpack 配置别名
+        '@': resolveDir('../src') ,// 这样配置后 @ 可以指向 src 目录
+        'components': resolveDir("../src/components"),
         // Support React Native Web
         // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
         'react-native': 'react-native-web',

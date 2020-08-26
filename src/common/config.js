@@ -7,6 +7,8 @@
  * @FilePath: \NeteaseCloudMusic\src\common\config.js
  * @
  */
+export const BASE_URL = `https://jsonplaceholder.typicode.com`;
+export const TIME_OUT = 10000;
 export const headerNavConfig = [
   {
     title: "发现音乐",
