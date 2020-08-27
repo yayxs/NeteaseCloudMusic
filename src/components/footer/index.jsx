@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
 const FooterrComp = memo(() => {
-  return <div>这是底部</div>;
+  return <div></div>;
 });
 
 export default FooterrComp;

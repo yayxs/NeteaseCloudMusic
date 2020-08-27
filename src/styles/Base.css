@@ -43,6 +43,12 @@ a {
   margin: 0 auto;
 }
 
+/* 容器宽度730 居中 */
+.wrap_730_center {
+  width: 982px;
+  margin: 0 auto;
+}
+
 /* 精灵图 */
 .sprite_topbar {
   background: url(../assets/images/sprite_topbar.png) no-repeat;
