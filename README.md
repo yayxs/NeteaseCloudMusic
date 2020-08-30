@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:05:59
- * @LastEditTime: 2020-08-30 12:28:19
+ * @LastEditTime: 2020-08-30 13:00:05
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\README.md
@@ -69,4 +69,4 @@ Give a ⭐️ if this project helped you! 感兴趣的小伙纸 点个 `star` �
 
 ## License
 
-MIT
+[MIT licensed](LICENSE).
