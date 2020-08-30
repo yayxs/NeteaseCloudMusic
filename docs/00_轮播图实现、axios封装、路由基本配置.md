@@ -149,7 +149,31 @@ npm run start
 
 以上的`命令` 同时可以替换为 `yarn` 等，如果你喜欢的话
 
-## webpack别名配置
+## 关于项目的样式
+
+采用`antd` 组件库 +  `styled-components` 结合 `sass`  以及 `normalize.css` 重置样式
+
+```js
+import styled from "styled-components";
+
+export const WrapperContainer = styled.div`
+  height: 285px;
+  width: 100vw;
+  background: url(${(props) => props.bgImage}) center center/6000px;
+
+  .banner {
+    height: 285px;
+    display: flex;
+    position: relative;
+  }
+`;
+```
+
+用上述的方式写样式，结合   `sass` 共同完成页面的样式部分
+
+
+
+## webpack别名配置 
 
 此项目通过简单的修改`webpack`的配置来添加别名（alias）
 
