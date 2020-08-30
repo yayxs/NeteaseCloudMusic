@@ -1,6 +1,6 @@
 > 源码地址（实时更新）[https://github.com/yayxs/NeteaseCloudMusic](https://github.com/yayxs/NeteaseCloudMusic)
 >
-> wiki 地址
+> 原文链接 
 
 
 
@@ -171,9 +171,7 @@ export const WrapperContainer = styled.div`
 
 用上述的方式写样式，结合   `sass` 共同完成页面的样式部分
 
-## axios 网络请求封装
 
-我们是在`axios` 的基础上简单配置实例，然后，添加
 
 ## webpack别名配置 
 

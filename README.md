@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:05:59
- * @LastEditTime: 2020-08-30 12:12:01
+ * @LastEditTime: 2020-08-30 12:28:19
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\README.md
@@ -18,11 +18,9 @@
 
 > 每周争取写一篇`进度分享` 。感兴趣的小伙纸 点个 `star` 是我更新的动力。
 
-
-
 ## wiki
 
-
+[中文文档地址](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/README.md)
 
 ## Preface
 
@@ -30,7 +28,7 @@
 
 ## Preview
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6bf8800e9205405fa52490cd8e124c8a~tplv-k3u1fbpfcp-zoom-1.image)
+ <img alt="Version" src="https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/images/banner.gif" />
 
 ## Install
 
@@ -68,8 +66,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you! 感兴趣的小伙纸 点个 `star` 是我更新的动力。
-
----
 
 ## License
 
