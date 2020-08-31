@@ -1,7 +1,7 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-26 21:53:17
- * @LastEditTime: 2020-08-27 22:29:28
+ * @LastEditTime: 2020-08-31 21:19:07
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\pages\foundMusic\childrenPages\recommend\components\bannerComp\styled.js

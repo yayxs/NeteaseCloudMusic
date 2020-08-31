@@ -37,6 +37,15 @@ a {
   text-decoration: none;
   color: #666;
 }
+
+input,
+textarea,
+button,
+select,
+a {
+  outline: none;
+  border: none;
+}
 /* 容器宽度1100px 居中 */
 .wrap_1100_center {
   width: 1100px;
@@ -48,7 +57,15 @@ a {
   width: 982px;
   margin: 0 auto;
 }
-
+.wrap_980_center {
+  width: 980px;
+  margin: 0 auto;
+}
+.absolute_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* 精灵图 */
 .sprite_topbar {
   background: url(../assets/images/sprite_topbar.png) no-repeat;

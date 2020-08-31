@@ -1,0 +1,51 @@
+.play_container {
+  position: fixed;
+  height: 52px;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../../../assets/images/playbar.png) repeat 0 0;
+
+  // background-position: 0 0;
+  // background-repeat: repeat;
+  .content {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 47px;
+    transform: translateX(-50%);
+
+    .btns {
+      display: flex;
+      align-items: center;
+      .btn {
+        cursor: pointer;
+        background: url("../../../assets/images/playbar.png") no-repeat 0 9999px;
+      }
+
+      .pre,
+      .next {
+        width: 28px;
+        height: 28px;
+      }
+
+      .pre {
+        background-position: 0 -130px;
+        &:hover {
+          // background-position: 0 -142px;
+        }
+      }
+      .play {
+        width: 36px;
+        height: 36px;
+        margin: 0 8px;
+        background-position: 0 -165px;
+      }
+      .next {
+        background-position: -80px -130px;
+      }
+    }
+  }
+}
