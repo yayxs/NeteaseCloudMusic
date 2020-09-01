@@ -67,6 +67,10 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you! 感兴趣的小伙纸 点个 `star` 是我更新的动力。
 
+## Thanks
+
+ - [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+
 ## License
 
 [MIT licensed](LICENSE).
