@@ -70,3 +70,6 @@ a {
 .sprite_topbar {
   background: url(../assets/images/sprite_topbar.png) no-repeat;
 }
+.sprite_playbar {
+  background: url(../assets/images/playbar.png) no-repeat 0 9999px;
+}
