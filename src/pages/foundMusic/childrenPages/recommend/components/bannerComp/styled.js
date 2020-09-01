@@ -1,14 +1,15 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-26 21:53:17
- * @LastEditTime: 2020-08-31 21:19:07
+ * @LastEditTime: 2020-09-01 23:33:27
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\pages\foundMusic\childrenPages\recommend\components\bannerComp\styled.js
  * @
  */
 import styled from "styled-components";
-
+import background from "../../../../../../assets/images/download.png";
+import arrowImg from "../../../../../../assets/images/arrow_banner_sprite.png";
 export const WrapperContainer = styled.div`
   height: 285px;
   width: 100vw;
@@ -35,7 +36,7 @@ export const LeftContainer = styled.div`
 export const RightContainer = styled.div`
   height: 285px;
   width: 254px;
-  background: url(${require("../../../../../../assets/images/download.png")});
+  background: url(${background});
 `;
 
 export const BannerControl = styled.div`
@@ -49,7 +50,7 @@ export const BannerControl = styled.div`
     position: absolute;
     width: 37px;
     height: 63px;
-    background-image: url(${require("@/assets/images/arrow_banner_sprite.png")});
+    background: url(${arrowImg});
     background-color: transparent;
     cursor: pointer;
     &:hover {

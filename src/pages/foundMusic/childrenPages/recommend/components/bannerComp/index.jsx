@@ -56,10 +56,7 @@ const BannerComp = memo((props) => {
         </LeftContainer>
         <RightContainer></RightContainer>
         <BannerControl>
-          <button
-            className="left btn"
-            onClick={(e) => bannerRef.current.prev()}
-          ></button>
+          <a className="left btn" onClick={(e) => bannerRef.current.prev()}></a>
           <button
             className="right btn"
             onClick={(e) => bannerRef.current.next()}
