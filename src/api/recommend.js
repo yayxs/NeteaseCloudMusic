@@ -7,11 +7,10 @@
  * @FilePath: \NeteaseCloudMusic\src\api\recommend.js
  * @
  */
-import request from "@/services/request";
+// import request from "@/services/request";
 
-const fetchBannerListApi = () =>
-  request({
-    url: "/banner",
-  });
+import { get } from "@/services/request";
+
+const fetchBannerListApi = () => get("/banner");
 
 export { fetchBannerListApi };
