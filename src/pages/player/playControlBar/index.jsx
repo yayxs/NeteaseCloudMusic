@@ -1,10 +1,31 @@
-import React, { memo, useState } from "react";
+import React, { memo, useState, useRef, useEffect } from "react";
 import { Slider } from "antd";
+import { getAudioSrc } from "@/utils/toolsHelper.js";
 import "./index.scss";
 export default memo(function PlayerBar() {
   const [defaultValue, setDefaultValue] = useState(30);
+  const [nowIsPlay, setNowIsPaly] = useState(false);
+  const audioRef = useRef();
+  useEffect(() => {
+    audioRef.current.src = getAudioSrc("442869203");
+    // 开始播放
+    setNowIsPaly(false);
+    audioRef.current
+      .play()
+      .then((res) => {
+        setNowIsPaly(true);
+      })
+      .catch((err) => {
+        setNowIsPaly(false);
+      });
+    return () => {};
+  }, []);
+  const handlePlayClick = (e) => {
+    console.log(e);
+  };
   return (
     <div className="play_container">
+      <audio ref={audioRef} />
       <section className="lock">
         <a href="" className="btn"></a>
       </section>
@@ -12,7 +33,7 @@ export default memo(function PlayerBar() {
         <section className="btns">
           <a href="" className="pre btn"></a>
 
-          <a href="" className="play btn"></a>
+          <a className="play btn" onClick={(e) => handlePlayClick(e)}></a>
 
           <a href="" className="next btn"></a>
         </section>
