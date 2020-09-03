@@ -2,7 +2,8 @@ import React, { memo } from "react";
 import classnames from "classnames";
 import { WarpperContainer, StyledLeft, StyledRight } from "./styled";
 import { NavLink } from "react-router-dom";
-import { headerNavConfig } from "../../common/config";
+// import { headerNavConfig } from "../../common/config";
+import headerNav from "../../router/headerNav";
 const HeaderComp = memo(() => {
   return (
     <WarpperContainer>
@@ -12,12 +13,18 @@ const HeaderComp = memo(() => {
             网易云音乐
           </a>
           <ul>
-            {headerNavConfig.map((item) => (
-              <li key={item.title} className={classnames("setected_nav")}>
-                <NavLink to={item.path}>
-                  {item.title}
-                  <i className="sprite_topbar icon"></i>
-                </NavLink>
+            {headerNav.map((item) => (
+              <li key={item.navTitle} className={classnames("setected_nav")}>
+                {item.path ? (
+                  <NavLink to={item.path}>
+                    {item.navTitle}
+                    <i className="sprite_topbar icon"></i>
+                  </NavLink>
+                ) : (
+                  <a href={item.externalLink} target="_blank">
+                    {item.navTitle}{" "}
+                  </a>
+                )}
               </li>
             ))}
           </ul>

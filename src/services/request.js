@@ -1,12 +1,3 @@
-/*
- * @Author: yayxs
- * @Date: 2020-08-26 21:37:00
- * @LastEditTime: 2020-08-26 23:54:10
- * @LastEditors: yayxs
- * @Description:
- * @FilePath: \NeteaseCloudMusic\src\services\request.js
- * @
- */
 // 引入axios
 import axios from "axios";
 // import * as commonConfig from "../common/config";

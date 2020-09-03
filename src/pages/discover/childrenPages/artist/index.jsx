@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
-const Singer = memo(() => {
+const Artist = memo(() => {
   return <div>歌手</div>;
 });
 
-export default Singer;
+export default Artist;
