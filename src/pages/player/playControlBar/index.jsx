@@ -10,14 +10,14 @@ export default memo(function PlayerBar() {
     audioRef.current.src = getAudioSrc("442869203");
     // 开始播放
     setNowIsPaly(false);
-    audioRef.current
-      .play()
-      .then((res) => {
-        setNowIsPaly(true);
-      })
-      .catch((err) => {
-        setNowIsPaly(false);
-      });
+    // audioRef.current
+    //   .play()
+    //   .then((res) => {
+    //     setNowIsPaly(true);
+    //   })
+    //   .catch((err) => {
+    //     setNowIsPaly(false);
+    //   });
     return () => {};
   }, []);
   const handlePlayClick = (e) => {

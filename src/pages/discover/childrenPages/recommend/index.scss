@@ -1,0 +1,13 @@
+.recommend_container {
+  display: flex;
+  background-color: #fff;
+  .container_left {
+    width: 729px;
+    height: 1425px;
+    padding: 20px 20px 40px;
+  }
+  .container_right {
+    width: 250px;
+    height: 729px;
+  }
+}

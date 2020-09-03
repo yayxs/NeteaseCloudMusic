@@ -38,6 +38,15 @@ a {
   color: #666;
 }
 
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
 input,
 textarea,
 button,
@@ -72,4 +81,17 @@ a {
 }
 .sprite_playbar {
   background: url(../assets/images/playbar.png) no-repeat 0 9999px;
+}
+#root {
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+body,
+textarea,
+select,
+input,
+button {
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }

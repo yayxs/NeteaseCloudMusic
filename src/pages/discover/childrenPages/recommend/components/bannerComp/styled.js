@@ -1,10 +1,10 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-26 21:53:17
- * @LastEditTime: 2020-09-01 23:33:27
+ * @LastEditTime: 2020-09-03 23:20:12
  * @LastEditors: yayxs
  * @Description:
- * @FilePath: \NeteaseCloudMusic\src\pages\foundMusic\childrenPages\recommend\components\bannerComp\styled.js
+ * @FilePath: \NeteaseCloudMusic\src\pages\discover\childrenPages\recommend\components\bannerComp\styled.js
  * @
  */
 import styled from "styled-components";
@@ -23,7 +23,7 @@ export const WrapperContainer = styled.div`
 `;
 export const LeftContainer = styled.div`
   height: 285px;
-  width: 685px;
+  width: 730px;
   .banner-item {
     overflow: hidden;
     height: 285px;

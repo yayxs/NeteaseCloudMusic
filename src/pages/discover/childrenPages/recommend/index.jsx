@@ -1,8 +1,19 @@
 import React, { memo } from "react";
-
-import routesConfig from "@/router/routesConfig";
+import NRcmdTitleComp from "components/nRcmdTitle";
+import BannerComp from "./components/bannerComp";
+import "./index.scss";
 const Recommend = memo(() => {
-  return <>这是推荐页</>;
+  return (
+    <>
+      <BannerComp />
+      <section className="recommend_container wrap_980_center">
+        <section className="container_left">
+          <NRcmdTitleComp />
+        </section>
+        <section className="container_right"></section>
+      </section>
+    </>
+  );
 });
 
 export default Recommend;

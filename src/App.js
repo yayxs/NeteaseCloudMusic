@@ -1,14 +1,14 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-21 20:44:48
- * @LastEditTime: 2020-09-01 23:35:59
+ * @LastEditTime: 2020-09-03 22:33:33
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\App.js
  * @
  */
 
-import "./styles/Base.css";
+import "./styles/global.css";
 import React, { Suspense, lazy } from "react";
 import { HashRouter as Router } from "react-router-dom";
 import YYMainComp from "./router";
