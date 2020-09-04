@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:05:59
- * @LastEditTime: 2020-08-30 13:00:05
+ * @LastEditTime: 2020-09-04 20:47:39
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\README.md
@@ -63,13 +63,17 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 - 前端互鱼 1 群 713593204
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/yayxs/NeteaseCloudMusic.svg)](https://starchart.cc/yayxs/NeteaseCloudMusic)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you! 感兴趣的小伙纸 点个 `star` 是我更新的动力。
 
 ## Thanks
 
- - [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+- [https://github.com/Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 ## License
 
