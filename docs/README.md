@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:18:27
- * @LastEditTime: 2020-09-05 17:33:35
+ * @LastEditTime: 2020-09-05 18:33:49
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\docs\README.md
@@ -22,4 +22,8 @@
 
 ### Api 接口说明
 
-> 本项目采用开源项目 [https://github.com/Binaryify/NeteaseCloudMusicApi](https://> github.com/Binaryify/NeteaseCloudMusicApi) 的接口服务，在此十分感谢。接口已经部署
+本项目采用开源项目 [https://github.com/Binaryify/NeteaseCloudMusicApi](https://> github.com/Binaryify/NeteaseCloudMusicApi) 的接口服务，在此十分感谢。接口已经部署
+
+**接口 Base 地址http://101.201.148.180:3000** 假如请求 轮播图数据
+
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6a0763c3edac4af48af89f508e9fa870~tplv-k3u1fbpfcp-zoom-1.image)

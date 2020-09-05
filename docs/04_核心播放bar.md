@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-31 23:17:19
- * @LastEditTime: 2020-09-03 22:46:28
+ * @LastEditTime: 2020-09-05 19:51:45
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\docs\04_核心播放bar.md
@@ -15,3 +15,5 @@
 - [底部播放 bar](https://s2.music.126.net/style/web2/img/frame/statbar.png?fe9bf6f2a8cee166bf1b2ea588744650)
 
 - [公共的 title](https://s2.music.126.net/style/web2/img/index/index.png?4e57335302280b79024e0c6444d40fc2)
+
+-[cover](https://s2.music.126.net/style/web2/img/coverall.png?8e9cf6b243b0ed197db8847d8905d064)

@@ -1,13 +1,22 @@
 .recommend_container {
   display: flex;
   background-color: #fff;
+  box-sizing: border-box;
   .container_left {
     width: 729px;
     height: 1425px;
     padding: 20px 20px 40px;
+    border: 1px solid #d3d3d3;
+    border-width: 0 0 0 1px;
+    .lists {
+      display: block;
+      margin: 20px 0 0 -42px;
+    }
   }
   .container_right {
     width: 250px;
-    height: 729px;
+    height: 1425px;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
   }
 }

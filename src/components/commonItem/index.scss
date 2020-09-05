@@ -1,0 +1,80 @@
+.commonItem_container {
+  width: 180px;
+  height: 234px;
+  // padding-left: 42px;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 0 30px 50px;
+  line-height: 1.4;
+  .cover {
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 27px;
+      color: #ccc;
+      background: url("../../assets/images/coverall.png");
+      background-position: 0 -537px;
+      .icon_play {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        width: 16px;
+        height: 17px;
+        background: url("../../assets/images/iconall.png");
+        background-position: 0 0;
+      }
+      .icon-headset {
+        float: left;
+        width: 14px;
+        height: 11px;
+        background: url("../../assets/images/iconall.png");
+
+        background-position: 0 -24px;
+        margin: 9px 5px 9px 10px;
+      }
+      .nb {
+        float: left;
+        margin: 7px 0 0 0;
+      }
+    }
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: block;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .msk {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../../assets/images/coverall.png");
+      background-position: 0 0;
+    }
+  }
+  .desc {
+    margin: 8px 0 3px;
+    font-size: 14px;
+    .tit {
+      display: inline-block;
+      max-width: 100%;
+      _width: 100%;
+      vertical-align: middle;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  p {
+    width: 100%;
+  }
+}

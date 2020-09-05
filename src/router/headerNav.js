@@ -1,3 +1,12 @@
+/*
+ * @Author: yayxs
+ * @Date: 2020-09-03 20:05:47
+ * @LastEditTime: 2020-09-05 21:44:04
+ * @LastEditors: yayxs
+ * @Description:
+ * @FilePath: \NeteaseCloudMusic\src\router\headerNav.js
+ * @
+ */
 const ExternalLink = [
   // 商城
   {
@@ -25,11 +34,13 @@ const routes = [
     navTitle: "朋友",
     path: "/friend",
   },
-  // 下载客户端
+];
+
+export default [
+  ...routes,
+  ...ExternalLink, // 下载客户端
   {
     navTitle: "下载客户端",
     path: "/download",
   },
 ];
-
-export default [...ExternalLink, ...routes];

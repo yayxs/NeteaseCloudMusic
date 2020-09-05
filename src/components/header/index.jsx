@@ -12,17 +12,14 @@ const HeaderComp = memo(() => {
           <a hidefocus="true" href="/#" className="logo sprite_topbar">
             网易云音乐
           </a>
-          <ul>
+          <ul className="m_nav">
             {headerNav.map((item) => (
-              <li key={item.navTitle} className={classnames("setected_nav")}>
+              <li key={item.navTitle}>
                 {item.path ? (
-                  <NavLink to={item.path}>
-                    {item.navTitle}
-                    <i className="sprite_topbar icon"></i>
-                  </NavLink>
+                  <NavLink to={item.path}>{item.navTitle}</NavLink>
                 ) : (
                   <a href={item.externalLink} target="_blank">
-                    {item.navTitle}{" "}
+                    {item.navTitle}
                   </a>
                 )}
               </li>

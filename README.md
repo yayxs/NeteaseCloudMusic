@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:05:59
- * @LastEditTime: 2020-09-05 18:01:25
+ * @LastEditTime: 2020-09-05 22:03:50
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\README.md
@@ -22,7 +22,7 @@
 
 - [中文文档地址](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/README.md)
 
-- [Api 接口文档](https://github.com/yayxs/NeteaseCloudMusic/tree/master/docs)
+- [Api 接口文档](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/README.md)
 
 ## Preface
 
@@ -34,7 +34,7 @@
 
 - [今天，你网抑云了吗？](http://101.201.148.180/)
 
-![preview](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/257815f57509499680ffbc2db3ebb7eb~tplv-k3u1fbpfcp-zoom-1.image)
+![pre](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f22bf15b6dfd4045ad9e3ed66c60a404~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## Install
 

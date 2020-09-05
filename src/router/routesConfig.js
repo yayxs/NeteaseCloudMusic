@@ -1,7 +1,7 @@
 /*
  * @Author: yayxs
  * @Date: 2020-08-24 20:27:53
- * @LastEditTime: 2020-08-24 20:49:46
+ * @LastEditTime: 2020-09-05 22:01:22
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\src\router\routesConfig.js
@@ -60,6 +60,11 @@ export default [
     path: "/discover",
     component: YYDiscoverPage,
     routes: [
+      {
+        path: "/discover",
+        exact: true,
+        render: () => <Redirect to={"/discover/recommend"} />,
+      },
       // 推荐
       {
         path: "/discover/recommend",
