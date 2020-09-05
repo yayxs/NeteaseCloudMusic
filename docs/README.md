@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:18:27
- * @LastEditTime: 2020-08-30 12:39:25
+ * @LastEditTime: 2020-09-05 17:33:35
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\docs\README.md
@@ -19,3 +19,7 @@
 ### 配套文章
 
 - [000 轮播图实现、axios 封装、路由基本配置](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/03_%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%AE%9E%E7%8E%B0%E3%80%81axios%E5%B0%81%E8%A3%85%E3%80%81%E8%B7%AF%E7%94%B1%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.md)
+
+### Api 接口说明
+
+> 本项目采用开源项目 [https://github.com/Binaryify/NeteaseCloudMusicApi](https://> github.com/Binaryify/NeteaseCloudMusicApi) 的接口服务，在此十分感谢。接口已经部署

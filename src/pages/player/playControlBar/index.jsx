@@ -10,14 +10,14 @@ export default memo(function PlayerBar() {
     audioRef.current.src = getAudioSrc("442869203");
     // 开始播放
     setNowIsPaly(false);
-    // audioRef.current
-    //   .play()
-    //   .then((res) => {
-    //     setNowIsPaly(true);
-    //   })
-    //   .catch((err) => {
-    //     setNowIsPaly(false);
-    //   });
+    audioRef.current
+      .play()
+      .then((res) => {
+        setNowIsPaly(true);
+      })
+      .catch((err) => {
+        setNowIsPaly(false);
+      });
     return () => {};
   }, []);
   const handlePlayClick = (e) => {
@@ -57,12 +57,12 @@ export default memo(function PlayerBar() {
               title=""
               style={{ color: "#fff" }}
             >
-              分手跳跃
+              保留
             </a>
             <span className="by f-thide f-fl" style={{ marginLeft: "15px" }}>
               <span title="隔壁老樊">
                 <a href="" hidefocus="true" title="" className="singer">
-                  隔壁老樊
+                  郭顶
                 </a>
               </span>
             </span>

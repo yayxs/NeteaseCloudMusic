@@ -1,10 +1,19 @@
+/*
+ * @Author: yayxs
+ * @Date: 2020-09-03 20:05:50
+ * @LastEditTime: 2020-09-05 17:37:34
+ * @LastEditors: yayxs
+ * @Description:
+ * @FilePath: \NeteaseCloudMusic\src\services\request.js
+ * @
+ */
 // 引入axios
 import axios from "axios";
 // import * as commonConfig from "../common/config";
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
-  timeout: Number(process.env.REACT_APP_TIME_OUT),
+  baseURL: "http://101.201.148.180:3000",
+  timeout: 5000,
 });
 
 // Add a request interceptor
