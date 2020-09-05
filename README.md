@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:05:59
- * @LastEditTime: 2020-09-05 17:58:05
+ * @LastEditTime: 2020-09-05 18:01:25
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\README.md
@@ -34,7 +34,7 @@
 
 - [今天，你网抑云了吗？](http://101.201.148.180/)
 
-<img alt="preview" src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/257815f57509499680ffbc2db3ebb7eb~tplv-k3u1fbpfcp-zoom-1.image" />
+![preview](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/257815f57509499680ffbc2db3ebb7eb~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## Install
 
