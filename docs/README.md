@@ -1,7 +1,7 @@
 <!--
  * @Author: yayxs
  * @Date: 2020-08-30 12:18:27
- * @LastEditTime: 2020-09-05 23:28:03
+ * @LastEditTime: 2020-09-07 20:36:17
  * @LastEditors: yayxs
  * @Description:
  * @FilePath: \NeteaseCloudMusic\docs\README.md
@@ -19,6 +19,8 @@
 ### 配套文章
 
 - [000 轮播图实现、axios 封装、路由基本配置](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/03_%E8%BD%AE%E6%92%AD%E5%9B%BE%E5%AE%9E%E7%8E%B0%E3%80%81axios%E5%B0%81%E8%A3%85%E3%80%81%E8%B7%AF%E7%94%B1%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.md)
+
+- [001 04\_通用组件封装、路由配置流程、Api 和项目部署上线](https://github.com/yayxs/NeteaseCloudMusic/blob/master/docs/04_%E9%80%9A%E7%94%A8%E7%BB%84%E4%BB%B6%E5%B0%81%E8%A3%85%E3%80%81%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B%E3%80%81Api%E5%92%8C%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%BA%BF.md)
 
 ### Api 接口说明
 
