@@ -21,7 +21,7 @@
 ### 读读评论
 
 - [x] ![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac85299fca4148ac83afa7515a65139c~tplv-k3u1fbpfcp-zoom-1.image)
-    
+  
     >项目和其用到的API 已经 部署上线，详细请看  wiki 文档，感谢评论
     
 - [x] ![![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac85299fca4148ac83afa7515a65139c~tplv-k3u1fbpfcp-zoom-1.image)](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d3797bf768034c46815aa268a2fc9277~tplv-k3u1fbpfcp-zoom-1.image)
@@ -152,7 +152,7 @@ background: url(${arrowImg});
 // 下载客户端
 ```
 
-
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/195b0b535e564f86beb0d31f85929b2e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ```js
      {
@@ -184,7 +184,42 @@ background: url(${arrowImg});
 
 ###  Api接口
 
-关于项目中所用到的网易云的接口 **已经完成部署** 短时间不会下线  ，你也可以直接 使用 基本的地址是 `http://101.201.148.180:3000`
+关于项目中所用到的网易云的接口 **已经完成部署** 短时间不会下线  ，你也可以直接 使用 基本的地址是 `http://101.201.148.180:3000`  (项目部署在   3000端口)
+
+请求示例参考 
+
+![![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/195b0b535e564f86beb0d31f85929b2e~tplv-k3u1fbpfcp-zoom-1.image)](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09de5eb66ee94b9dbf28c652ce2ce60b~tplv-k3u1fbpfcp-zoom-1.image)
+
+
+
+### 项目的部署
+
+项目目前通过手动部署的方式，已经部署在阿里云服务，有关 `nginx` 相关的配置以及一些常用的配置 可以看  [Nginx | 前端也应晓得常用Nginx命令及配置](https://juejin.im/post/6844904192146931719)
+
+不过打包的时候如果遇到一些问题，比如  webpack的一些配置问题。可能需要注释掉
+
+```js
+// config/webpack.config.js
+
+// importWorkboxFrom: "cdn",
+```
+
+具体见文末推荐阅读
+
+
+
+## 关联阅读
+
+- [https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-v4](https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-v4)
+
+## 最后
+
+个人项目，下班时间写，更新慢见谅。正如上文所说，已经部署上线，请关注  [http://101.201.148.180/](http://101.201.148.180/#/discover/recommend)
+
+- 感谢评论关注 `star` 的铁汁儿，期待在下一次的读读评论见到你
+- 文档中的外链比较多，见谅，因为是之前简单写过，就不再写一遍呢，在写就是深入了 over
+
+## 彩蛋
 
 ### 精灵图篇
 
@@ -193,8 +228,8 @@ background: url(${arrowImg});
 - [公共的 title](https://s2.music.126.net/style/web2/img/index/index.png?4e57335302280b79024e0c6444d40fc2)
 - [cover](https://s2.music.126.net/style/web2/img/coverall.png?8e9cf6b243b0ed197db8847d8905d064)
 
-## 最后
+### 插件篇
 
-个人项目，下班时间写，更新慢见谅。正如上文所说，已经部署上线，请关注  [http://101.201.148.180/](http://101.201.148.180/#/discover/recommend)
+上次忘了说了，如果使用 `styled-components` 这个方案处理样式的话，需要装个插件最好了
 
-- 感谢评论关注 `star` 的铁汁儿，期待在下一次的读读评论见到你
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c8740c69f6c549bc839d4ae9b3c5fe7d~tplv-k3u1fbpfcp-zoom-1.image)
